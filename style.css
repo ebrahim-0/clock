@@ -130,3 +130,48 @@ body {
 .clock .number12 {
   --degree: 360deg;
 }
+
+.clock .number div {
+  transform: rotate(var(--degree-div));
+  -webkit-transform: rotate(var(--degree-div));
+  -moz-transform: rotate(var(--degree-div));
+  -ms-transform: rotate(var(--degree-div));
+  -o-transform: rotate(var(--degree-div));
+}
+
+.clock .number1 div {
+  --degree-div: -30deg;
+}
+.clock .number2 div {
+  --degree-div: -60deg;
+}
+.clock .number3 div {
+  --degree-div: -90deg;
+}
+.clock .number4 div {
+  --degree-div: -120deg;
+}
+.clock .number5 div {
+  --degree-div: -150deg;
+}
+.clock .number6 div {
+  --degree-div: -180deg;
+}
+.clock .number7 div {
+  --degree-div: -210deg;
+}
+.clock .number8 div {
+  --degree-div: -240deg;
+}
+.clock .number9 div {
+  --degree-div: -270deg;
+}
+.clock .number10 div {
+  --degree-div: -300deg;
+}
+.clock .number11 div {
+  --degree-div: -330deg;
+}
+.clock .number12 div {
+  --degree-div: -360deg;
+}
